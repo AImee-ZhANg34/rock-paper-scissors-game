@@ -23,6 +23,8 @@ def win (u1, u2):
       print("Player 1 wins") 
     else: 
       print("Player 2 wins") 
-  else: return("replay game") sys.exit()
+  else: 
+    return("replay game") 
+    sys.exit()
 
 win(player1, player2)
